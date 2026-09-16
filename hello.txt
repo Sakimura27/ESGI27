@@ -1,1 +1,8 @@
-Hello world
+Hello world!
+
+add . : "ajouter au colis"
+commit -m "(Nom du commit)" : "fermer le colis"
+push : "envoyer de colis"
+
+--soft: reset le commit
+--mixed: reset le add et commit
