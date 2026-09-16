@@ -1,1 +1,4 @@
 Hello world!
+
+--soft: reset le commit
+--mixed: reset le add et commit
