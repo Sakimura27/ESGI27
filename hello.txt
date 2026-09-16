@@ -1,11 +1,8 @@
 Hello world!
 
-<<<<<<< HEAD
 add . : "ajouter au colis"
 commit -m "(Nom du commit)" : "fermer le colis"
 push : "envoyer de colis"
-
-=======
->>>>>>> 64038f2e65ddeb88c468f4dceb6bc59c7cead50d
---soft: reset le commit
---mixed: reset le add et commit
+restore --staged <file>: reset de add
+reset --soft -m HEAD~1: reset le commit
+reset --mixed -m HEAD~1: reset le add ET commit
